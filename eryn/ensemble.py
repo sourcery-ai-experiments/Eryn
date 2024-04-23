@@ -5,6 +5,7 @@ import warnings
 import numpy as np
 from itertools import count
 from copy import deepcopy
+import ray
 
 from .backends import Backend, HDFBackend
 from .model import Model
